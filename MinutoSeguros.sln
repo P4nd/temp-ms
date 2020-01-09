@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinutoSeguros.DAO", "MinutoSeguros.DAO\MinutoSeguros.DAO.csproj", "{58889E8A-EB80-401C-92A0-FABD8DD6F7DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinutoSeguros.BLL", "MinutoSeguros.BLL\MinutoSeguros.BLL.csproj", "{6C38662F-4FD4-4F57-BD52-1809D05A70A8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MinutoSeguros.WEB", "MinutoSeguros.WEB\", "{FC652FE5-C503-4E4E-92FA-E784867FF16F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54827"
+		Debug.AspNetCompiler.PhysicalPath = "MinutoSeguros.WEB\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54827\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54827"
+		Release.AspNetCompiler.PhysicalPath = "MinutoSeguros.WEB\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54827\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54827"
+		SlnRelativePath = "MinutoSeguros.WEB\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinutoSeguros.API", "MinutoSeguros.API\MinutoSeguros.API.csproj", "{E8C01DAE-1015-471D-8605-2ED2E742C0A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58889E8A-EB80-401C-92A0-FABD8DD6F7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58889E8A-EB80-401C-92A0-FABD8DD6F7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58889E8A-EB80-401C-92A0-FABD8DD6F7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58889E8A-EB80-401C-92A0-FABD8DD6F7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C38662F-4FD4-4F57-BD52-1809D05A70A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C38662F-4FD4-4F57-BD52-1809D05A70A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C38662F-4FD4-4F57-BD52-1809D05A70A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C38662F-4FD4-4F57-BD52-1809D05A70A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC652FE5-C503-4E4E-92FA-E784867FF16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC652FE5-C503-4E4E-92FA-E784867FF16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC652FE5-C503-4E4E-92FA-E784867FF16F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC652FE5-C503-4E4E-92FA-E784867FF16F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E8C01DAE-1015-471D-8605-2ED2E742C0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C01DAE-1015-471D-8605-2ED2E742C0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C01DAE-1015-471D-8605-2ED2E742C0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C01DAE-1015-471D-8605-2ED2E742C0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A23BA5E-E180-444C-AE35-9EFD57B9C16C}
+	EndGlobalSection
+EndGlobal

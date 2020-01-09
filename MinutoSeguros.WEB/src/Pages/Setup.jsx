@@ -4,9 +4,7 @@ import '../Styles/Pages/Setup.css';
 export default class Setup extends Component{
 
 	render(){
-		return <>
-			Setup
-		</>;		
+		return <div className="motion">Setup</div>;
 	}
 
 }

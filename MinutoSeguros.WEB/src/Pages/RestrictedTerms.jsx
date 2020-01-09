@@ -4,9 +4,7 @@ import '../Styles/Pages/RestrictedTerms.css';
 export default class RestrictedTerms extends Component{
 
 	render(){
-		return <>
-			Restricted terms
-		</>;		
+		return <div className="motion">Restricted terms</div>;		
 	}
 
 }

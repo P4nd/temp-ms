@@ -4,9 +4,7 @@ import '../Styles/Pages/Dashboard.css';
 export default class Dashboard extends Component{
 
 	render(){
-		return <>
-			Dashboard
-		</>;		
+		return <div className="motion">Dashboard</div>;		
 	}
 
 }

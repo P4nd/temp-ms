@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, NavLink, Redirect } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 
-import './Styles/Index.css';
+import './index.css';
 import Logo from './Images/logo-minuto.png';
 
 import Dashboard from './Pages/Dashboard';
 import Setup from './Pages/Setup';
 import RestrictedTerms from './Pages/RestrictedTerms';
 
-function App() {
+function Index() {
   return (
     <Router>
         <Redirect to='/dashboard'/>
@@ -35,5 +35,5 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Index />, document.getElementById('root'));
 serviceWorker.unregister();

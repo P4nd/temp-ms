@@ -1,0 +1,13 @@
+main .setup dl{width:50%;height:100px;margin:auto;clear:both;}
+main .setup dl dt{transition:all;border:5px solid #e0e0e0;float:left;background-color: #d2d2d2;color:white;width:10%;margin:0 2%;padding: 16px 0 18px 0;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%; }
+main .setup dl dd{float:right;width:80%;padding-top: 8px;}
+main .setup dl dd h3{transition:all;color:#e0e0e0;}
+main .setup dl dd p{transition:all;color:#e0e0e0;}
+
+main .setup dl.active dt{border-color:#ded3f5;background-color: #8564C8;}
+main .setup dl.active dd h3{color:#8564C8;}
+main .setup dl.active dd p{color:#B7B7B7;}
+
+main .setup dl.fail dt{border-color:#f5c1c1;background-color: #FF0000;}
+main .setup dl.fail dd h3{color:#FF0000;}
+main .setup dl.fail dd p{color:#B7B7B7;}

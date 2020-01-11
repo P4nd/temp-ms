@@ -26,6 +26,7 @@ namespace MinutoSeguros.API.Controllers
                     ID = item.ID,
                     Link = item.Link,
                     Title = item.Title,
+                    Counter = item.WordCounter,
                     Tags = mainObjects
                             .Where(p => p.PostID == item.ID)
                                 .Select(t => new DAO.TagDTO() {

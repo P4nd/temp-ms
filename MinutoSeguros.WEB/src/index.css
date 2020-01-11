@@ -11,14 +11,21 @@ header .col ul li{float:right;margin-left: 10px;margin-top:40px;}
 header .col ul li a{text-decoration: none;color:#b7f9f7;font-weight: bold;padding:8px 10px;}
 header .col ul li .active{color:#FFF;background-color:#8564c8;font-weight: bold;}
 
-main{clear: both;width: 98%;margin:auto;}
-.motion{animation: up-and-fade ease-out .8s;}
+main{clear: both;width: 98%;margin:20px auto;}
+main h1{font-size:30px;line-height: 25px;margin-bottom: 20px;}
+main h1 span{color:#8564C8;text-transform: uppercase;}
+main h1 em small{font-size:20px;color:#B7B7B7;}
+main h1 img{position: absolute;right: 10px;margin-top: -30px;}
 
+.motion{animation: up-and-fade ease-out .8s;}
 @-webkit-keyframes up-and-fade{from{transform: translateY(30px);opacity: 0;}to{transform: translateY(0px);opacity: 1;}}
 @-moz-keyframes up-and-fade{from{transform: translateY(30px);opacity: 0;}to{transform: translateY(0px);opacity: 1;}}
 @-ms-keyframes up-and-fade{from{transform: translateY(30px);opacity: 0;}to{transform: translateY(0px);opacity: 1;}}
 @-o-keyframes up-and-fade{from{transform: translateY(30px);opacity: 0;}to{transform: translateY(0px);opacity: 1;}}
 @keyframes up-and-fade{from{transform: translateY(30px);opacity: 0;}to{transform: translateY(0px);opacity: 1;}}
+
+.text-center{text-align: center;}
+.text-right{text-align: right;}
 
 @media(max-width: 768px){
 

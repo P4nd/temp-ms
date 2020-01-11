@@ -1,0 +1,4 @@
+main .dashboard dl dd{background-color:#dbf2f2;padding:10px 0;}
+main .dashboard dl dd ul{width: 100%;text-align: center;}
+main .dashboard dl dd ul li{list-style: none;font-size:0.95em;display:inline-block;margin-right:15px;margin-left:15px;line-height: 30px;}
+main .dashboard dl dd ul li em{opacity: 0.5;}

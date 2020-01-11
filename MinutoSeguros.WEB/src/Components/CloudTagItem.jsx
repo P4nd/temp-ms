@@ -5,7 +5,7 @@ export default class CloudTagItem extends Component{
 
 	render(){
 		return <>
-			Cloud Tag Item
+			<li>{this.props.tag.name} <em>({this.props.tag.counter})</em></li>
 		</>;		
 	}
 

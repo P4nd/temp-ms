@@ -18,6 +18,7 @@ namespace MinutoSeguros.DAO
         public int ID { get; set; }
         public string Title { get; set; }
         public string Link { get; set; }
+        public int Counter { get; set; }
         public List<TagDTO> Tags { get; set; }
     }
 }

@@ -1,0 +1,8 @@
+main .setup button{color: #FFF;background-color: #8564c8;font-weight: bold;border:none;padding: 8px 14px;cursor: pointer;}
+main .setup h4 span{font-size:4em;display: block;color: #8564C8;}
+
+main .setup.wizard #wizard{display: block;}
+main .setup.wizard #done{display: none;}
+
+main .setup.done #wizard{display: none;}
+main .setup.done #done{display: block;}

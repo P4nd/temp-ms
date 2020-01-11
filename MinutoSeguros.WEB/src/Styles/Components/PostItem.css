@@ -1,0 +1,9 @@
+main .dashboard dl{width:49%;float:left;margin-right:2%;margin-bottom: 22px;}
+main .dashboard dl:nth-child(odd){margin-right:0;}
+main .dashboard dl dt{font-size:.9em;background-color:rgb(47,199,198);padding:10px 6px;}
+main .dashboard dl dt a{text-decoration: none;color: white;width:100%;display: block;}
+main .dashboard dl div{float:right;background-color:#dbf2f2;color:#087373;padding:8px 15px;}
+
+@media(max-width: 900px){
+	main .dashboard dl{width:100%;float:none;margin-bottom: 50px;}
+}

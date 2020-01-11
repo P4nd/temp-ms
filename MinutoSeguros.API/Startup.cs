@@ -25,6 +25,9 @@ namespace MinutoSeguros.API
         {
             var conn = Configuration["ConnectionStrings:MinutoSegurosDatabase"];
             services.AddDbContext<APIContext>(o => o.UseSqlServer(conn));
+
+            services.AddCors();
+
             services.AddMvc()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
                 .AddJsonOptions(o => {
@@ -37,6 +40,11 @@ namespace MinutoSeguros.API
         {
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
+
+            app.UseCors(
+                options => options.WithOrigins("http://localhost:3000").AllowAnyMethod()
+            );
+
             app.UseMvc();
         }
 

@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitMinutoSeguros\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj",
+      "projectUniqueName": "C:\\GitOportunidade\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj",
       "projectName": "MinutoSeguros.DAO",
-      "projectPath": "C:\\GitMinutoSeguros\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj",
+      "projectPath": "C:\\GitOportunidade\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\GitMinutoSeguros\\MinutoSeguros.DAO\\obj\\",
+      "outputPath": "C:\\GitOportunidade\\MinutoSeguros.DAO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12985,11 +12985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitMinutoSeguros\\MinutoSeguros.API\\MinutoSeguros.API.csproj",
+      "projectUniqueName": "C:\\GitOportunidade\\MinutoSeguros.API\\MinutoSeguros.API.csproj",
       "projectName": "MinutoSeguros.API",
-      "projectPath": "C:\\GitMinutoSeguros\\MinutoSeguros.API\\MinutoSeguros.API.csproj",
+      "projectPath": "C:\\GitOportunidade\\MinutoSeguros.API\\MinutoSeguros.API.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\GitMinutoSeguros\\MinutoSeguros.API\\obj\\",
+      "outputPath": "C:\\GitOportunidade\\MinutoSeguros.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13008,11 +13008,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\GitMinutoSeguros\\MinutoSeguros.BLL\\MinutoSeguros.BLL.csproj": {
-              "projectPath": "C:\\GitMinutoSeguros\\MinutoSeguros.BLL\\MinutoSeguros.BLL.csproj"
+            "C:\\GitOportunidade\\MinutoSeguros.BLL\\MinutoSeguros.BLL.csproj": {
+              "projectPath": "C:\\GitOportunidade\\MinutoSeguros.BLL\\MinutoSeguros.BLL.csproj"
             },
-            "C:\\GitMinutoSeguros\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj": {
-              "projectPath": "C:\\GitMinutoSeguros\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj"
+            "C:\\GitOportunidade\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj": {
+              "projectPath": "C:\\GitOportunidade\\MinutoSeguros.DAO\\MinutoSeguros.DAO.csproj"
             }
           }
         }

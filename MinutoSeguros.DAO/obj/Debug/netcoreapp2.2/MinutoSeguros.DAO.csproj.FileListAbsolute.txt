@@ -16,3 +16,12 @@ C:\GitMinutoSeguros\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.
 C:\GitMinutoSeguros\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.AssemblyInfo.cs
 C:\GitMinutoSeguros\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.dll
 C:\GitMinutoSeguros\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.pdb
+C:\GitTempMS\MinutoSeguros.DAO\bin\Debug\netcoreapp2.2\MinutoSeguros.DAO.deps.json
+C:\GitTempMS\MinutoSeguros.DAO\bin\Debug\netcoreapp2.2\MinutoSeguros.DAO.dll
+C:\GitTempMS\MinutoSeguros.DAO\bin\Debug\netcoreapp2.2\MinutoSeguros.DAO.pdb
+C:\GitTempMS\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.csprojAssemblyReference.cache
+C:\GitTempMS\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.csproj.CoreCompileInputs.cache
+C:\GitTempMS\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.AssemblyInfoInputs.cache
+C:\GitTempMS\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.AssemblyInfo.cs
+C:\GitTempMS\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.dll
+C:\GitTempMS\MinutoSeguros.DAO\obj\Debug\netcoreapp2.2\MinutoSeguros.DAO.pdb

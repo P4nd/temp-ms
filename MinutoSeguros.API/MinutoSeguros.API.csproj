@@ -24,4 +24,8 @@
     <ProjectReference Include="..\MinutoSeguros.DAO\MinutoSeguros.DAO.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
 </Project>

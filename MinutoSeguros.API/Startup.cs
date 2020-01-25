@@ -42,8 +42,12 @@ namespace MinutoSeguros.API
                 app.UseDeveloperExceptionPage();
 
             app.UseCors(
-                options => options.WithOrigins("http://localhost:3000").AllowAnyMethod()
+                options => options.WithOrigins("http://localhost:3000")
+                            .AllowAnyMethod()
+                            .AllowAnyHeader()
             );
+
+            app.UseStaticFiles();
 
             app.UseMvc();
         }

@@ -1,0 +1,8 @@
+form.restricted-terms{padding:5px 0 7px 0;text-align:center;margin-top:-10px;}
+form.restricted-terms input{width: 93%;height:34px;border:none;margin:0;outline:none;padding:0 4px;}
+form.restricted-terms button{width: 5%;height:34px;border: none;margin:0;color: #FFF;background-color: #8564c8;font-weight: bold;font-size:10px;outline:none;}
+form.restricted-terms label{display: block;text-align: left;padding: 0 0 10px 0;}
+
+form.restricted-terms label.danger{color:red;}
+form.restricted-terms label.warning{color:#b3a400;}
+form.restricted-terms label.success{color:green;}

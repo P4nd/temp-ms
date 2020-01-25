@@ -1,0 +1,3 @@
+article{display: inline-flex;font-size:13px;padding:4px 5px;margin-bottom: 8px;}
+article dd{background-color:#dbf2f2;padding:4px 10px;}
+article dt{cursor: pointer;background-color:rgb(47,199,198);padding:5px 8px;color:#FFF;}

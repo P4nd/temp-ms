@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
+using Microsoft.OpenApi.Models;
 
 namespace MinutoSeguros.API
 {
@@ -34,6 +35,10 @@ namespace MinutoSeguros.API
                     o.SerializerSettings.PreserveReferencesHandling = PreserveReferencesHandling.None;
                     o.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                 });
+
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MS API", Version = "v1" });
+            });
         }
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -46,6 +51,12 @@ namespace MinutoSeguros.API
                             .AllowAnyMethod()
                             .AllowAnyHeader()
             );
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "MS API v1");
+            });
 
             app.UseStaticFiles();
 

@@ -25,8 +25,7 @@ namespace MinutoSeguros.API.Controllers
         }
 
         [HttpGet("two")]
-        public async Task<bool> GetTwo() {
-            var postBusiness = new BLL.PostBusiness();
+        public async Task<bool> GetTwo([FromServices] PostBusiness postBusiness) {
             List<DAO.Post> ldp = await postBusiness.Read();
             if (ldp.Count() == 0) return false;
             await ctx.Posts.AddRangeAsync(ldp);
@@ -34,20 +33,18 @@ namespace MinutoSeguros.API.Controllers
         }
 
         [HttpGet("three")]
-        public async Task<bool> GetThree() {
+        public async Task<bool> GetThree([FromServices] RestrictedTermBusiness restrictedTermBusiness) {
             var posts = await ctx.Posts.ToListAsync();
-            var terms = await ctx.RestrictedTerms.ToListAsync();          
-            var restrictedTermBusiness = new RestrictedTermBusiness();
+            var terms = await ctx.RestrictedTerms.ToListAsync();
             restrictedTermBusiness.CountProcess(ref posts, terms);
             return (await ctx.SaveChangesAsync() >= 1);
         }
 
         [HttpGet("four")]
-        public async Task<bool> GetFour() {
+        public async Task<bool> GetFour([FromServices] RestrictedTermBusiness restrictedTermBusiness) {
             var posts = await ctx.Posts.ToListAsync();
             var terms = await ctx.RestrictedTerms.ToListAsync();
             var cloudTagsDTO = new List<DAO.CloudTagDTO>();
-            var restrictedTermBusiness = new RestrictedTermBusiness();
             restrictedTermBusiness.RankProcess(ref posts, terms, ref cloudTagsDTO);
             int countOccurrences = 0;
 

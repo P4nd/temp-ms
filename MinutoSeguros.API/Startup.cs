@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Microsoft.OpenApi.Models;
+using MinutoSeguros.BLL;
 
 namespace MinutoSeguros.API
 {
@@ -39,6 +40,10 @@ namespace MinutoSeguros.API
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MS API", Version = "v1" });
             });
+
+            services.AddScoped<PostBusiness>();
+            services.AddScoped<RestrictedTermBusiness>();
+
         }
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

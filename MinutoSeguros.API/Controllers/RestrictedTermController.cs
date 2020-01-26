@@ -23,7 +23,7 @@ namespace MinutoSeguros.API.Controllers
         }
         
         [HttpPost]
-        public async Task<IActionResult> Post([FromForm] DAO.RestrictedTerm term)
+        public async Task<IActionResult> Post([FromBody] DAO.RestrictedTerm term)
         {
             if (String.IsNullOrWhiteSpace(term.Name) || String.IsNullOrEmpty(term.Name))
                 return BadRequest("Your parameters are incorrect");
@@ -39,8 +39,14 @@ namespace MinutoSeguros.API.Controllers
         }
         
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id, [FromQuery] long? userID, [FromHeader] string token)
         {
+            if (!userID.HasValue) return BadRequest("Action owner not found");
+
+            if (String.IsNullOrEmpty(token)) return BadRequest("Privileges not configured");
+
+            if (token != "JaX59mXJkn35XDeaFFBNLHNbGbD7") return BadRequest("Privileges not found");
+            
             var currentItem = await ctx.RestrictedTerms.FindAsync(id.Value);
 
             if (currentItem == null)

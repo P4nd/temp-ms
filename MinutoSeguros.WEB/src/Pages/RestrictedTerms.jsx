@@ -45,7 +45,7 @@ export default class RestrictedTerms extends Component{
 						});
 					}
 				})
-				.catch(e => console.log(e));
+				.catch(e => this.setState({ isLoading: false }));
 	}
 
 	render(){
